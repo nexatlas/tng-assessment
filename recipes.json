@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti Bolognese",
+    "description": "A classic Italian pasta dish.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "200g spaghetti",
+      "100g ground beef",
+      "1 onion, chopped",
+      "1 clove garlic, minced",
+      "400g canned tomatoes"
+    ],
+    "instructions": [
+      "Boil the spaghetti according to the package instructions.",
+      "In a pan, sauté the onion and garlic.",
+      "Add ground beef and cook until browned.",
+      "Stir in the tomatoes and simmer for 20 minutes.",
+      "Serve the sauce over the spaghetti."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Chicken Curry",
+    "description": "A flavorful chicken curry with a spicy kick.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "500g chicken, diced",
+      "1 onion, chopped",
+      "2 tablespoons curry powder",
+      "200ml coconut milk",
+      "1 bell pepper, sliced"
+    ],
+    "instructions": [
+      "Sauté the onion until soft.",
+      "Add the chicken and cook until browned.",
+      "Stir in the curry powder and cook for 1 minute.",
+      "Add the coconut milk and simmer for 15 minutes.",
+      "Add the bell pepper and cook for 5 more minutes."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Vegetable Stir-Fry",
+    "description": "A quick and healthy vegetable stir-fry.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "1 broccoli head, chopped",
+      "2 carrots, sliced",
+      "1 bell pepper, sliced",
+      "2 tablespoons soy sauce",
+      "1 tablespoon olive oil"
+    ],
+    "instructions": [
+      "Heat olive oil in a wok.",
+      "Add carrots and stir-fry for 2 minutes.",
+      "Add broccoli and stir-fry for another 3 minutes.",
+      "Stir in the bell pepper and soy sauce.",
+      "Cook for another 2 minutes and serve."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Beef Stroganoff",
+    "description": "A creamy beef and mushroom dish.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "500g beef strips",
+      "200g mushrooms, sliced",
+      "1 onion, chopped",
+      "200ml sour cream",
+      "2 tablespoons flour"
+    ],
+    "instructions": [
+      "Sear the beef strips in a pan until browned.",
+      "Remove the beef and sauté the onion and mushrooms.",
+      "Add the flour and cook for 1 minute.",
+      "Stir in the sour cream and bring to a simmer.",
+      "Return the beef to the pan and cook for 5 minutes."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Chocolate Chip Cookies",
+    "description": "Classic cookies with gooey chocolate chips.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "250g flour",
+      "100g sugar",
+      "100g butter",
+      "1 egg",
+      "150g chocolate chips"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C (350°F).",
+      "Cream together butter and sugar.",
+      "Mix in the egg and flour.",
+      "Fold in the chocolate chips.",
+      "Drop spoonfuls onto a baking sheet and bake for 12-15 minutes."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Caesar Salad",
+    "description": "A fresh and tangy Caesar salad.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "1 head romaine lettuce, chopped",
+      "50g croutons",
+      "30g parmesan cheese, grated",
+      "3 tablespoons Caesar dressing",
+      "1 grilled chicken breast, sliced"
+    ],
+    "instructions": [
+      "In a large bowl, combine lettuce, croutons, and parmesan cheese.",
+      "Add Caesar dressing and toss to coat.",
+      "Top with sliced grilled chicken.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Margarita Pizza",
+    "description": "A simple and classic pizza with fresh ingredients.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "1 pizza base",
+      "200g tomato sauce",
+      "150g mozzarella cheese",
+      "Fresh basil leaves",
+      "1 tablespoon olive oil"
+    ],
+    "instructions": [
+      "Preheat oven to 220°C (425°F).",
+      "Spread tomato sauce over the pizza base.",
+      "Top with mozzarella cheese and fresh basil leaves.",
+      "Drizzle with olive oil.",
+      "Bake in the oven for 12-15 minutes."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Pancakes",
+    "description": "Light and fluffy pancakes for breakfast.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "200g flour",
+      "2 tablespoons sugar",
+      "1 teaspoon baking powder",
+      "1 egg",
+      "300ml milk"
+    ],
+    "instructions": [
+      "Mix flour, sugar, and baking powder in a bowl.",
+      "Whisk in the egg and milk until smooth.",
+      "Heat a non-stick pan and pour in batter to form pancakes.",
+      "Cook until bubbles appear, then flip and cook the other side.",
+      "Serve with syrup or fresh fruit."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Grilled Salmon",
+    "description": "A healthy and delicious grilled salmon dish.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 tablespoon olive oil",
+      "1 lemon, sliced",
+      "Salt and pepper to taste",
+      "Fresh dill for garnish"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat.",
+      "Brush salmon fillets with olive oil and season with salt and pepper.",
+      "Grill salmon for 5-7 minutes per side.",
+      "Serve with lemon slices and garnish with fresh dill."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Minestrone Soup",
+    "description": "A hearty Italian vegetable soup.",
+    "image": "https://via.placeholder.com/150",
+    "ingredients": [
+      "1 onion, chopped",
+      "2 carrots, diced",
+      "2 celery stalks, diced",
+      "400g canned tomatoes",
+      "1 liter vegetable stock",
+      "200g pasta"
+    ],
+    "instructions": [
+      "Sauté onion, carrots, and celery in a large pot.",
+      "Add canned tomatoes and vegetable stock.",
+      "Simmer for 20 minutes.",
+      "Add pasta and cook until tender.",
+      "Serve hot with grated parmesan cheese."
+    ]
+  }
+]
