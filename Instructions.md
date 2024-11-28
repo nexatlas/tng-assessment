@@ -13,7 +13,7 @@
 
 ## Technical Requirements
 Welcome to the Front-End Engineer role branch. Your task is to create a responsive web dashboard for MetricWizz, a fictional company. 
-This exercise will assess is designed to test your ability to build dynamic, responsive, and visually appealing web applications.
+This exercise is designed to test your ability to build dynamic, responsive, and visually appealing web applications.
 
 1. Framework/Library:
    - Use a modern front-end framework/library such as React, Vue.js, or Angular. React is preferred, but feel free to choose what you’re most comfortable with.
