@@ -1,9 +1,9 @@
 # Frontend Technical Assessment
 
 ## Assessment Overview
-- Purpose of the assessment
-- Expected time to complete
-- Submission guidelines
+- The goal of this assessment is to evaluate your ability to build a functional and visually appealing web application, demonstrating proficiency in different technology and data handling. 
+- Expected time to complete is 5 days.
+- Read the Submission and Deliverable sections below for submission guidelines.
 
 ## Submission Instructions
 1. Create a branch
@@ -67,3 +67,5 @@ This exercise will assess is designed to test your ability to build dynamic, res
    - How to run the project locally.
    - Any design decisions or libraries/tools used.
    - Any known limitations or areas for improvement.
+
+## Good luck, and we look forward to reviewing your submission!
