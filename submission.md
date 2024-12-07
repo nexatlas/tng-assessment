@@ -15,6 +15,7 @@ MetricWizz is a comprehensive React-based web application for advanced metric tr
 ### 1. Clone the Repository
 
 git clone
+https://github.com/nexatlas/tng-assessment.git
 cd tng-assessment
 
 ### 2. Environment Configuration
