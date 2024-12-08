@@ -1,0 +1,29 @@
+.btn {
+  font-family: var(--font-jakarta);
+  border: 1px solid transparent;
+  outline: none;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+
+  &--transparent {
+    padding: 1rem 0;
+  }
+
+  &--fill {
+    color: var(--white);
+    background: var(--primary);
+  }
+
+  &--outline {
+    background: var(--white);
+    color: var(--primary);
+    border-color: var(--primary);
+  }
+
+  &:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+}
