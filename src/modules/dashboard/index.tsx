@@ -69,9 +69,9 @@ const DashboardUI = ({ metrics, activity, users }: DashboardUIProps) => {
         />
       </section>
       <section className={styles.sec}>
-        <section>
-          <p className={styles.graph__ttl}>Users ({users.length})</p>
-          <p className={styles.graph__txt}>
+        <section className={styles.table} >
+          <p className={styles.sec__ttl}>Users ({users.length})</p>
+          <p className={styles.sec__txt}>
             Lörem ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
@@ -96,8 +96,8 @@ const DashboardUI = ({ metrics, activity, users }: DashboardUIProps) => {
           />
         </section>
         <section className={styles.graph}>
-          <p className={styles.graph__ttl}>User Activity</p>
-          <p className={styles.graph__txt}>Keep track of your user activity</p>
+          <p className={styles.sec__ttl}>User Activity</p>
+          <p className={styles.sec__txt}>Keep track of your user activity</p>
           <BarChart
             data={activity}
             labels={["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"]}

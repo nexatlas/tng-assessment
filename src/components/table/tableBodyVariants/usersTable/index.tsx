@@ -1,9 +1,4 @@
-import {
-  // Pagination,
-  // PaginationProps,
-  TableBody,
-  TableBodyRow,
-} from "components/";
+import { TableBody, TableBodyRow } from "components/";
 import styles from "./styles.module.scss";
 
 export interface UsersTableItem {
@@ -14,17 +9,14 @@ export interface UsersTableItem {
 
 interface TableBodyProps {
   tableBodyItems: UsersTableItem[];
-
   tableBodyItemClassName: string;
   tableBodyRowClassName: string;
-  // pagination?: PaginationProps;
 }
 
 const UsersTable: React.FC<TableBodyProps> = ({
   tableBodyItemClassName,
   tableBodyItems,
   tableBodyRowClassName,
-  // pagination,
 }) => {
   return (
     <>
@@ -40,11 +32,6 @@ const UsersTable: React.FC<TableBodyProps> = ({
           </TableBodyRow>
         ))}
       </TableBody>
-      {/* {pagination ? (
-        <Pagination {...pagination} className={styles.pagination} />
-      ) : (
-        ""
-      )} */}
     </>
   );
 };

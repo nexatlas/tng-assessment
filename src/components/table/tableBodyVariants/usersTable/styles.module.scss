@@ -1,52 +1,6 @@
-.pagination {
-  border-top: var(--border-1);
-}
-
-.status {
-  text-transform: capitalize;
-  border-radius: 24px;
-  width: fit-content;
-  font-weight: 500;
-  padding: 6px 10px;
-  text-align: center;
-  min-width: 70px;
-  display: block;
-  margin: auto;
-
-  &.active {
-    color: #149b32;
-    background: #3a974c10;
-  }
-
-  &.scheduled {
-    color: #f29339;
-    background: #f2933910;
-  }
-
-  &.closed {
-    color: #d11a2a;
-    background: #d11a2a10;
-  }
-}
 .tableBodyRow {
-  .label {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .tableBodyRow {
-    .label {
-      display: block;
-      font-weight: 400;
-      color: #00000060;
-      margin-bottom: 4px;
-      font-size: 14px;
-    }
-
-    span {
-      font-weight: 600;
-      font-size: 15px;
-    }
+  span {
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
