@@ -39,9 +39,8 @@
 .sec {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 1rem;
-}
-.graph {
+  gap: 1.5rem;
+
   &__ttl {
     font-size: 18px;
     color: var(--primary-text);
@@ -51,6 +50,8 @@
   &__txt {
     margin-bottom: 2rem;
   }
+}
+.graph {
 }
 
 .tableWrap {
@@ -65,7 +66,7 @@
 .tableRow,
 .tableHeader {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr) 100px;
   gap: 1rem;
   border-bottom: 1px solid #eaecf0;
 
@@ -78,5 +79,18 @@
   .sec {
     grid-template-columns: 1fr;
     gap: 3rem;
+
+    .graph {
+      order: 1;
+    }
+
+    .table {
+      order: 2;
+    }
+  }
+
+  .tableWrap {
+    max-height: 600px;
+    overflow: auto;
   }
 }
