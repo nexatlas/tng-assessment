@@ -1,0 +1,55 @@
+.card {
+  border: 1px solid #eaecf0;
+  padding: 1rem;
+  border-radius: 12px;
+
+  &__ttl {
+    margin-bottom: 2rem;
+  }
+
+  &__value {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__comparator {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+
+    svg {
+      width: 16px;
+    }
+
+    &--growth {
+      svg {
+        path {
+          fill: var(--success);
+        }
+      }
+    }
+
+    &--loss {
+      svg {
+        transform: rotate(180deg);
+        path {
+          fill: var(--error);
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+    .card {
+        &__value {
+            font-size: 30px;
+        }
+    }
+}

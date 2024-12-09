@@ -1,0 +1,92 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.navtabs {
+  background: #eaecf0;
+  padding: 2px;
+  border-radius: 6px;
+  width: fit-content;
+  margin-bottom: 1rem;
+
+  button {
+    padding: 8px 1rem;
+    border-radius: 4px;
+    border: none;
+    color: #344054;
+    font-weight: 500;
+
+    &.active {
+      background: #fff;
+      color: #101828;
+    }
+  }
+
+  &--1 {
+    button {
+      width: 120px;
+    }
+  }
+
+  &--2 {
+    button {
+      width: 80px;
+    }
+  }
+}
+.sec {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+.graph {
+  &__ttl {
+    font-size: 18px;
+    color: var(--primary-text);
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  &__txt {
+    margin-bottom: 2rem;
+  }
+}
+
+.table {
+  border: 1px solid #eaebf0;
+  border-radius: 8px;
+  max-height: 300px;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+  &__header {
+    font-weight: 600;
+    color: var(--primary);
+  }
+  &__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+    gap: 12px;
+  }
+  &__body {
+    border-top: 1px solid #eaecf0;
+
+    span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sec {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}

@@ -13,8 +13,8 @@
   --secondary-text: #96999f;
   --white: #ffffff;
   --black: #000000;
-  --error: red;
-  --success: green;
+  --error: #E62E2E;
+  --success: #18B368;
 }
 
 body {
