@@ -39,7 +39,7 @@
 .sec {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 2rem;
+  gap: 1rem;
 }
 .graph {
   &__ttl {
@@ -53,9 +53,7 @@
   }
 }
 
-.table {
-  border: 1px solid #eaebf0;
-  border-radius: 8px;
+.tableWrap {
   max-height: 300px;
   overflow: auto;
 
@@ -63,24 +61,16 @@
     width: 0px;
     height: 0px;
   }
+}
+.tableRow,
+.tableHeader {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  border-bottom: 1px solid #eaecf0;
 
-  &__header {
-    font-weight: 600;
-    color: var(--primary);
-  }
-  &__row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 1rem;
-    gap: 12px;
-  }
-  &__body {
-    border-top: 1px solid #eaecf0;
-
-    span {
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
+  span:last-of-type {
+    text-align: right;
   }
 }
 

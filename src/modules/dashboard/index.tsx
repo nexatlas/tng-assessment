@@ -1,7 +1,20 @@
-import { BarChart, EmptyTable, StatCard } from "components";
+import {
+  BarChart,
+  EmptyTable,
+  StatCard,
+  Table,
+  TableHeaderItemProps,
+  UsersTable,
+} from "components";
 import styles from "./styles.module.scss";
 import { useState } from "react";
 import { periodOptions } from "utils/constants";
+
+const tableHeaderTitles: TableHeaderItemProps[] = [
+  { title: "Name" },
+  { title: "Email" },
+  { title: "Date" },
+];
 
 interface User {
   name: string;
@@ -62,28 +75,25 @@ const DashboardUI = ({ metrics, activity, users }: DashboardUIProps) => {
             Lörem ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
-
-          {users.length > 0 ? (
-            <div className={styles.table}>
-              <div className={`${styles.table__row} ${styles.table__header}`}>
-                <span>Name</span>
-                <span>Email</span>
-                <span>Date</span>
-              </div>
-              {users.map((item, index) => (
-                <div
-                  key={`user_${index}`}
-                  className={`${styles.table__row} ${styles.table__body}`}
-                >
-                  <span>{item.name}</span>
-                  <span>{item.email}</span>
-                  <span>{item.date}</span>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <EmptyTable text={"There are no users to show"} />
-          )}
+          <Table
+            tableHeaderTitles={tableHeaderTitles}
+            tableBody={
+              <UsersTable
+                tableBodyItems={users}
+                tableBodyItemClassName={""}
+                tableBodyRowClassName={styles.tableRow}
+              />
+            }
+            customTableClasses={{
+              tableContainerClassName: styles.tableWrap,
+              tableHeaderClassName: styles.tableHeader,
+              tableHeaderItemClassName: styles.tableHeaderItem,
+            }}
+            emptyTable={{
+              show: users.length === 0,
+              element: <EmptyTable text={"There are no users to show"} />,
+            }}
+          />
         </section>
         <section className={styles.graph}>
           <p className={styles.graph__ttl}>User Activity</p>

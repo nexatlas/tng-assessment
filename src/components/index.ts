@@ -3,3 +3,4 @@ export * from "./input";
 export * from "./statCard";
 export * from "./barChart";
 export * from "./emptyTable";
+export * from "./table";
