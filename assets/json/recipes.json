@@ -1,0 +1,233 @@
+[
+    {
+      "id": 1,
+      "name": "Spaghetti Bolognese",
+      "description": "A classic Italian pasta dish.",
+      "image": "https://via.placeholder.com/150",
+      "ingredients": [
+        "200g spaghetti",
+        "100g ground beef",
+        "1 onion, chopped",
+        "1 clove garlic, minced",
+        "400g canned tomatoes",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Boil the spaghetti according to the package instructions.",
+        "In a pan, sauté the onion and garlic.",
+        "Add ground beef and cook until browned.",
+        "Stir in the tomatoes and simmer for 20 minutes.",
+        "Season with salt and pepper.",
+        "Serve the sauce over the spaghetti."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Chicken Curry",
+      "description": "A flavorful chicken curry with a spicy kick.",
+      "image": "https://via.placeholder.com/150",
+      "ingredients": [
+        "500g chicken, diced",
+        "1 onion, chopped",
+        "2 tablespoons curry powder",
+        "200ml coconut milk",
+        "1 bell pepper, sliced",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Sauté the onion until soft.",
+        "Add the chicken and cook until lightly browned.",
+        "Stir in the curry powder and cook for 1 minute.",
+        "Add the coconut milk and simmer for 15 minutes.",
+        "Add the bell pepper and simmer for 5 more minutes.",
+        "Season with salt and serve with rice."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Margherita Pizza",
+      "description": "A simple and classic pizza topped with tomato, mozzarella, and basil.",
+      "image": "https://via.placeholder.com/150",
+      "ingredients": [
+        "1 pizza dough",
+        "200g tomato sauce",
+        "150g fresh mozzarella cheese",
+        "A handful of fresh basil leaves",
+        "Salt and olive oil to taste"
+      ],
+      "instructions": [
+        "Preheat the oven to 220°C (430°F).",
+        "Spread the tomato sauce evenly over the pizza dough.",
+        "Top with sliced mozzarella.",
+        "Drizzle with olive oil and sprinkle with a pinch of salt.",
+        "Bake for 10-12 minutes until crust is golden.",
+        "Garnish with fresh basil leaves and serve."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Beef Stir-Fry",
+      "description": "Quick and delicious beef stir-fry with vegetables.",
+      "image": "https://via.placeholder.com/150",
+      "ingredients": [
+        "300g beef strips",
+        "1 red bell pepper, sliced",
+        "1 green bell pepper, sliced",
+        "1 onion, sliced",
+        "2 tablespoons soy sauce",
+        "1 tablespoon oyster sauce",
+        "1 teaspoon cornstarch",
+        "2 tablespoons vegetable oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Combine soy sauce, oyster sauce, and cornstarch in a bowl.",
+        "Heat oil in a wok or skillet over high heat.",
+        "Add beef and stir-fry until browned.",
+        "Add peppers and onion and stir-fry for 2-3 minutes.",
+        "Pour in the sauce mixture and stir until thickened.",
+        "Season with salt and pepper, serve hot."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Caesar Salad",
+      "description": "A crisp and refreshing salad with a creamy Caesar dressing.",
+      "image": "https://via.placeholder.com/150",
+      "ingredients": [
+        "1 romaine lettuce head, chopped",
+        "100g croutons",
+        "50g grated Parmesan cheese",
+        "3 tablespoons Caesar dressing",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Place the chopped lettuce in a large bowl.",
+        "Add croutons and Parmesan cheese.",
+        "Drizzle with Caesar dressing.",
+        "Toss gently to combine.",
+        "Season with salt and pepper.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Pan-Seared Salmon",
+      "description": "Moist and tender salmon fillet with a crisp exterior.",
+      "image": "https://via.placeholder.com/150",
+      "ingredients": [
+        "2 salmon fillets (about 150g each)",
+        "1 tablespoon butter",
+        "1 tablespoon olive oil",
+        "1 clove garlic, minced",
+        "Juice of half a lemon",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Season salmon fillets with salt and pepper.",
+        "Heat olive oil in a pan over medium-high heat.",
+        "Place salmon fillets skin-side down and cook for 3-4 minutes.",
+        "Flip the fillets, add butter and garlic to the pan.",
+        "Cook an additional 2-3 minutes, until just cooked through.",
+        "Squeeze lemon juice over the top and serve."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Vegetable Lasagna",
+      "description": "A hearty vegetarian lasagna packed with fresh vegetables and creamy cheese.",
+      "image": "https://via.placeholder.com/150",
+      "ingredients": [
+        "9 lasagna noodles",
+        "200g spinach leaves",
+        "1 zucchini, sliced",
+        "1 yellow squash, sliced",
+        "250g ricotta cheese",
+        "200g mozzarella cheese, shredded",
+        "500g tomato sauce",
+        "Salt, pepper, and herbs to taste"
+      ],
+      "instructions": [
+        "Preheat oven to 180°C (350°F).",
+        "Cook lasagna noodles according to package directions.",
+        "Layer noodles, tomato sauce, spinach, zucchini, squash, and ricotta in a baking dish.",
+        "Repeat layers and top with shredded mozzarella.",
+        "Bake for 35-40 minutes until bubbly.",
+        "Let stand for 10 minutes before slicing."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Greek Salad",
+      "description": "A vibrant salad with fresh veggies, feta cheese, and olives.",
+      "image": "https://via.placeholder.com/150",
+      "ingredients": [
+        "2 tomatoes, chopped",
+        "1 cucumber, chopped",
+        "1 green bell pepper, chopped",
+        "1 red onion, thinly sliced",
+        "100g feta cheese, crumbled",
+        "A handful of black olives",
+        "2 tablespoons olive oil",
+        "1 tablespoon red wine vinegar",
+        "Salt and oregano to taste"
+      ],
+      "instructions": [
+        "Combine tomatoes, cucumber, bell pepper, and red onion in a bowl.",
+        "Add feta cheese and olives.",
+        "Drizzle with olive oil and red wine vinegar.",
+        "Sprinkle with oregano and a pinch of salt.",
+        "Toss gently and serve."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Pad Thai",
+      "description": "A popular Thai stir-fried noodle dish with a balance of sweet, sour, and savory flavors.",
+      "image": "https://via.placeholder.com/150",
+      "ingredients": [
+        "200g rice noodles",
+        "200g shrimp, peeled and deveined",
+        "1 egg",
+        "1 cup bean sprouts",
+        "2 tablespoons fish sauce",
+        "1 tablespoon tamarind paste",
+        "1 tablespoon brown sugar",
+        "2 tablespoons oil",
+        "Chopped peanuts and lime wedges for garnish"
+      ],
+      "instructions": [
+        "Soak rice noodles in warm water until softened, then drain.",
+        "Heat oil in a wok, add shrimp and cook until pink.",
+        "Push shrimp aside, crack egg and scramble.",
+        "Add noodles, fish sauce, tamarind paste, and brown sugar; stir to combine.",
+        "Add bean sprouts and stir-fry for another minute.",
+        "Garnish with chopped peanuts and serve with lime wedges."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Chocolate Brownies",
+      "description": "Rich and fudgy chocolate brownies with a crackly top.",
+      "image": "https://via.placeholder.com/150",
+      "ingredients": [
+        "200g dark chocolate",
+        "100g butter",
+        "100g sugar",
+        "2 eggs",
+        "50g flour",
+        "1 teaspoon vanilla extract",
+        "A pinch of salt"
+      ],
+      "instructions": [
+        "Preheat oven to 180°C (350°F).",
+        "Melt chocolate and butter together.",
+        "Stir in sugar and vanilla extract.",
+        "Beat in eggs one at a time.",
+        "Fold in flour and salt.",
+        "Pour into a baking pan and bake for 20-25 minutes.",
+        "Allow to cool before slicing."
+      ]
+    }
+  ]
+  

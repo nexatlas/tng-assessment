@@ -1,50 +1,57 @@
 # Flutter Technical Assessment
 
 ## Assessment Overview
+
 - The goal of this assessment is to evaluate your ability to build a functional and visually appealing Flutter application, demonstrating proficiency with Flutter widgets, layouts, state management, and dynamic data handling.
 - This task is expected to be completed in 5 days
 - Read the Submission and Deliverable sections below for submission guidelines.
 
 ## Submission Instructions
+
 1. Create a branch
 2. Complete the assessment
 3. Commit your code
 4. Create a pull request to the role branch
 
 ## Technical Requirements
+
 Your task is to build a Recipe Finder App for a fictional company called "ChefWizz". The app will allow users to search for recipes, view details, and save their favorite recipes for later.
 
 1. Features to Implement
 
   a. Home Screen
-   - Display a list of featured recipes fetched from a provided API (or mock JSON).
-   - Each recipe card should include:
-     - Recipe name
-     - Short description
-     - Thumbnail image
-   - Add a search bar at the top of the screen to filter recipes by name.
+
+- Display a list of featured recipes fetched from a provided API (or mock JSON).
+- Each recipe card should include:
+  - Recipe name
+  - Short description
+  - Thumbnail image
+- Add a search bar at the top of the screen to filter recipes by name.
 
  b. Recipe Details Screen
-   - Show detailed information about the selected recipe, including:
-     - Name
-     - Full description
-     - Ingredients (in a bullet-point list)
-     - Step-by-step instructions
-   - Include an image of the recipe at the top of the screen.
+
+- Show detailed information about the selected recipe, including:
+  - Name
+  - Full description
+  - Ingredients (in a bullet-point list)
+  - Step-by-step instructions
+- Include an image of the recipe at the top of the screen.
 
  c. Favorites Screen
-   - Allow users to mark recipes as favorites from the Home or Details screen.
-   - Display the list of favorited recipes on this screen.
+
+- Allow users to mark recipes as favorites from the Home or Details screen.
+- Display the list of favorited recipes on this screen.
 
  d. Navigation
-   - Implement a bottom navigation bar with the following tabs:
-     - Home: Displays the featured recipes and search bar.
-     - Favorites: Displays the list of saved recipes.
-     - Profile: A placeholder screen showing a user's name and email.
+
+- Implement a bottom navigation bar with the following tabs:
+  - Home: Displays the featured recipes and search bar.
+  - Favorites: Displays the list of saved recipes.
+  - Profile: A placeholder screen showing a user's name and email.
 
 e. Responsiveness
-   - Ensure the app works seamlessly on different screen sizes, including phones and tablets.
 
+- Ensure the app works seamlessly on different screen sizes, including phones and tablets.
 
 2. Data and API Handling
 
@@ -99,12 +106,12 @@ Sample recipes.json structure:
    - Use clear and modular code.
    - Comment on key parts of your code.
 
-
 ## Deliverables
+
 1. A fully functional, responsive dashboard.
 2. A  Submission.md showing:
    - How to install or run the app.
    - Any design decisions or libraries/tools used.
    - Any known limitations or areas for improvement.
 
-## Good luck, and we look forward to reviewing your submission!
+## Good luck, and we look forward to reviewing your submission
