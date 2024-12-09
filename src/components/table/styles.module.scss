@@ -1,0 +1,113 @@
+.mainTableContainer {
+  width: 100%;
+  border-radius: 12px;
+  background: #fff;
+}
+.tableHeader {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  padding: 0 1.5rem;
+  color: #03022950;
+  align-items: center;
+
+  span {
+    padding: 1rem 0;
+    color: var(--primary);
+    font-weight: 600;
+  }
+}
+.tableBody {
+  width: 100%;
+
+  > div:last-of-type {
+    border: none;
+  }
+}
+.tableBodyRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  align-items: center;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  position: relative;
+}
+.hdWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdownList {
+  padding: 12px;
+  right: 3rem;
+  margin-bottom: 1rem;
+  background: #fafafa;
+  box-shadow: 289px 720px 310px rgba(39, 181, 67, 0.01),
+    163px 405px 262px rgba(39, 181, 67, 0.03),
+    72px 180px 194px rgba(39, 181, 67, 0.04),
+    18px 45px 107px rgba(39, 181, 67, 0.05), 0px 0px 0px rgba(39, 181, 67, 0.05);
+  border-radius: 8px;
+  min-width: 160px;
+}
+.dropdownListItem {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 12px;
+  margin-bottom: 2px;
+}
+.dropdownListItem:hover {
+  background: var(--green);
+  color: #fff;
+}
+.dropdownListItem:hover svg path {
+  fill: var(--white);
+}
+.checkWrap {
+  span {
+    display: none;
+  }
+}
+.check {
+  min-width: 16px;
+  width: 16px;
+  height: 16px;
+  accent-color: var(--secondary-blue);
+}
+@media screen and (max-width: 900px) {
+  .mainTableContainer {
+    background: transparent;
+    padding: 0;
+  }
+  /* .tableHeader,
+  tbody {
+    display: none;
+  } */
+  .title {
+    font-size: 14px;
+  }
+  .emptyTable p {
+    font-size: 14px;
+  }
+  .checkWrap {
+    display: flex !important;
+    align-items: center;
+
+    span {
+      display: block;
+      white-space: nowrap;
+      padding: 0;
+      font-size: 14px;
+      color: #000;
+      font-weight: 400 !important;
+      margin-left: 10px;
+    }
+  }
+}
