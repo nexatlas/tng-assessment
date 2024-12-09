@@ -1,22 +1,8 @@
-## TNG Assessment Repository
+# React + TypeScript + Vite
 
-Welcome to the assessment repository. This repository is divided into branches for different roles. Please follow the instructions below to complete your assessment.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Each role has a separate branch:
+Currently, two official plugins are available:
 
-- Frontend Engineers: Use the frontend branch.
-- Flutter Developers: Use the flutter branch.
-- UI/UX Designers: Use the UI/UX branch.
-
-## Steps to Complete the Assessment
-
-1. Clone the Repository.
-2. Switch to your role branch.
-3. Create your own branch in the format "firstname-lastname" from the specific role branch.
-4. Make your changes and push to your branch
-5. Open a pull request to submit your work
-
-## Notes
-- Do not modify files in other branches.
-- Ensure your work is properly organized and documented.
-- Include any additional notes or explanations in a separate file (submission.md). 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
