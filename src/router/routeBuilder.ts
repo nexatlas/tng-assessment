@@ -1,13 +1,13 @@
 import { Dashboard, Login } from "pages";
 import { PathRouteProps } from "react-router-dom";
 import { Routes } from "./routes";
-import { Layout, LayoutProps } from "layout";
+import { Layout } from "layout";
 
 // Route Builder Item Props
 export interface RouteBuilderItem extends PathRouteProps {
   Layout?: React.FC<any>; // If you wish to add a layout to the page
   Element: React.FC;
-  props?: LayoutProps;
+  props?: any;
 }
 
 /**
@@ -32,6 +32,9 @@ export const RouteBuilder: RouteBuilderItem[] = [
     path: Routes.dashboard,
     Layout: Layout,
     Element: Dashboard,
+    props: {
+      active: "dashboard",
+    },
   },
 
   {

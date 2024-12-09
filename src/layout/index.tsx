@@ -1,17 +1,21 @@
 import { ReactNode } from "react";
 import { Navbar } from "./navbar";
 import { Sidebar } from "./sidebar";
+import styles from "./styles.module.scss";
+
+export type tabs = "dashboard" | "profile" | "settings";
 
 export interface LayoutProps {
   children: ReactNode;
+  active: tabs;
 }
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout = ({ children, active }: LayoutProps) => {
   return (
     <>
       <Navbar />
-      {children}
-      <Sidebar />
+      <main className={styles.main}>{children}</main>
+      <Sidebar active={active} />
     </>
   );
 };
