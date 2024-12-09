@@ -10,7 +10,7 @@ import { useState } from "react";
 import { Routes } from "router";
 import styles from "./styles.module.scss";
 import { LogoColored } from "assets";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { tabs } from "layout";
 
 interface SidebarProps {
@@ -18,6 +18,7 @@ interface SidebarProps {
 }
 
 const Sidebar: React.FC<SidebarProps> = ({ active }) => {
+  const navigate = useNavigate();
   const mobileWidth = 900;
   const [mobile, setMobile] = useState(
     window.innerWidth <= mobileWidth ? true : false
@@ -55,6 +56,8 @@ const Sidebar: React.FC<SidebarProps> = ({ active }) => {
   ];
 
   window.addEventListener("resize", screenSizeUpdate);
+
+  const handleLogout = () => navigate(Routes.login);
 
   return (
     <>
@@ -98,7 +101,7 @@ const Sidebar: React.FC<SidebarProps> = ({ active }) => {
           ))}
         </nav>
 
-        <button className={styles.logout} >
+        <button onClick={handleLogout} className={styles.logout}>
           Logout <LogoutIcon />
         </button>
       </aside>

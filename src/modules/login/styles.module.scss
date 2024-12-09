@@ -9,7 +9,7 @@
 .logoSec {
   display: flex;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   gap: 4px;
 
   &__logo {
@@ -18,7 +18,7 @@
   }
   &__txt {
     color: var(--primary);
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 600;
   }
 }
@@ -34,4 +34,20 @@
 }
 .btn {
   width: 100%;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .ttl {
+    font-size: 20px;
+  }
+  .logoSec {
+    &__logo {
+      height: 48px;
+      width: auto;
+    }
+    &__txt {
+      font-size: 22px;
+    }
+  }
 }
