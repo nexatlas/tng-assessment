@@ -2,6 +2,7 @@ import { LogoColored } from "assets";
 import styles from "./styles.module.scss";
 import { useState } from "react";
 import { Button, Input } from "components";
+import { emailRegex, passwordRegex } from "utils/regex";
 
 interface LoginData {
   email: string;
@@ -30,7 +31,13 @@ const LoginUI = ({ submit }: LoginUIProps) => {
     setErrors(undefined);
 
     if (!formState.email) errors.email = "Email is required";
+    else if (!emailRegex.test(formState.email))
+      errors.email = "Enter a valid email";
+
     if (!formState.password) errors.password = "Password is required";
+    else if (!passwordRegex.test(formState.password))
+      errors.password =
+        "Password must have at least 8 characters, a digit and a special character";
 
     if (Object.keys(errors).length == 0) {
       submit(formState);
