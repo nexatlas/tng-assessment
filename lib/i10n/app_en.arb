@@ -1,0 +1,13 @@
+{
+  "@@locale": "en",
+  "home": "Home",
+  "favorites": "Favorites",
+  "profile": "Profile",
+  "search": "Search",
+  "chefWizz": "ChefWizz",
+  "noRecipes": "No recipes yet.",
+  "noFavorites": "No favorites yet.",
+  "searchRecipes": "Search recipes...",
+  "fullName": "Full Name",
+  "emailAddress": "Email Address"
+}
